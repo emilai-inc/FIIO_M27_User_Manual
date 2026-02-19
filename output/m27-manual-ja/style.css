@@ -1,0 +1,327 @@
+/* ============================================================
+   Product Manual - Japanese HTML
+   Responsive, print-ready, accessible
+   ============================================================ */
+
+/* Reset & Base */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.7;
+    color: #1a1a1a;
+    background: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2.5rem 0 1.5rem;
+    border-bottom: 2px solid #e5e7eb;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.25rem;
+}
+
+header .subtitle {
+    font-size: 0.95rem;
+    color: #6b7280;
+}
+
+/* Table of Contents */
+nav#toc {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+nav#toc h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: #374151;
+}
+
+nav#toc ol {
+    padding-left: 1.25rem;
+}
+
+nav#toc li {
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+
+nav#toc a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+nav#toc a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding-bottom: 3rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+h4 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 0.85rem;
+}
+
+/* Lists */
+ol, ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.35rem;
+}
+
+/* Images & Figures */
+figure {
+    margin: 1.5rem auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+}
+
+figcaption {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Image Grid (side-by-side screenshots) */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.image-grid-item {
+    flex: 0 1 200px;
+}
+
+/* Tables */
+.table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+th, td {
+    border: 1px solid #d1d5db;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+}
+
+th {
+    background: #f3f4f6;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+/* Warning / Caution / Notice Boxes */
+.warning-danger,
+.warning-caution,
+.warning-notice {
+    padding: 1rem 1.25rem;
+    border-radius: 6px;
+    margin: 1.25rem 0;
+    border-left: 4px solid;
+}
+
+.warning-danger {
+    background: #fef2f2;
+    border-left-color: #dc2626;
+}
+
+.warning-danger .warning-label {
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.warning-caution {
+    background: #fff7ed;
+    border-left-color: #ea580c;
+}
+
+.warning-caution .warning-label {
+    color: #ea580c;
+    font-weight: 700;
+}
+
+.warning-notice {
+    background: #fefce8;
+    border-left-color: #ca8a04;
+}
+
+.warning-notice .warning-label {
+    color: #ca8a04;
+    font-weight: 700;
+}
+
+/* Code */
+code {
+    font-family: "SF Mono", "Menlo", "Consolas", monospace;
+    background: #f3f4f6;
+    padding: 0.15rem 0.35rem;
+    border-radius: 3px;
+    font-size: 0.85em;
+}
+
+pre {
+    background: #1f2937;
+    color: #f9fafb;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #e5e7eb;
+    padding: 1.5rem 0;
+    font-size: 0.85rem;
+    color: #9ca3af;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0.25rem;
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 640px) {
+    body {
+        padding: 0 1rem;
+    }
+
+    header h1 {
+        font-size: 1.35rem;
+    }
+
+    nav#toc {
+        position: static;
+        max-height: none;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+}
+
+/* ============================================================
+   Print
+   ============================================================ */
+@media print {
+    nav#toc {
+        display: none;
+    }
+
+    body {
+        max-width: none;
+        padding: 0;
+        font-size: 11pt;
+    }
+
+    header {
+        border-bottom: 1px solid #000;
+    }
+
+    h2 {
+        break-before: page;
+    }
+
+    figure {
+        break-inside: avoid;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .warning-danger,
+    .warning-caution,
+    .warning-notice {
+        border: 1px solid #000;
+        background: none;
+    }
+}
