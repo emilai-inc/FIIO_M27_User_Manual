@@ -1,0 +1,1065 @@
+[
+  {
+    "filename": "page1_img1.jpeg",
+    "page": 1,
+    "rect": {
+      "x0": 80.0,
+      "y0": 352.0,
+      "x1": 442.3,
+      "y1": 714.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Cover page hero image: FiiO M27 player front view showing the now-playing screen with album art, playback controls, and volume knob. Section: Cover.",
+    "nearby_headings": [
+      "All the pictures below are for illustrations only. Specifics are subject to the actual",
+      "product.",
+      "M27 Complete User Manual"
+    ],
+    "image_width": 963,
+    "image_height": 963,
+    "is_decorative": false
+  },
+  {
+    "filename": "page6_img1.jpeg",
+    "page": 6,
+    "rect": {
+      "x0": 80.0,
+      "y0": 193.3,
+      "x1": 467.9,
+      "y1": 767.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Labeled diagram of M27 buttons and ports: top panel (3.5mm, 4.4mm, 6.35mm headphone out/line out, power/volume knob), left side (multifunction button, previous/play-pause/next track buttons), right side (antenna), bottom panel (optical out, Type-C charging/power, HOLD switch, Type-C data, microSD slot, USB HOST, coaxial in/out, desktop mode switch), and side ambient lights. Section: 1. Pictorial guide to buttons and ports.",
+    "nearby_headings": [
+      "1",
+      "Buttons and ports",
+      "1. Pictorial guide to buttons and ports"
+    ],
+    "image_width": 574,
+    "image_height": 849,
+    "is_decorative": false
+  },
+  {
+    "filename": "page12_img1.jpeg",
+    "page": 12,
+    "rect": {
+      "x0": 80.0,
+      "y0": 168.0,
+      "x1": 200.5,
+      "y1": 409.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of the M27 Quick Settings panel (pull-down notification shade) showing toggles for Internet, Bluetooth, Mode Choose, Ultra High gain, PO, BAL.PO, OPT/COAX output, and Auto-rotate. Section: Status bar and display page / Quick Settings.",
+    "nearby_headings": [
+      "7",
+      "Status bar and display page",
+      "The status bar on the top screen shows the working states of the M27."
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page13_img1.jpeg",
+    "page": 13,
+    "rect": {
+      "x0": 80.0,
+      "y0": 400.4,
+      "x1": 200.5,
+      "y1": 641.4
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Mode Choose dialog showing six working modes: Android Mode (selected), Pure Music Mode, AirPlay, USB DAC Mode, Bluetooth Receiving Mode, and COAX mode. Section: Instructions for entry-level functions / Five working modes.",
+    "nearby_headings": [
+      "8",
+      "Instructions for entry-level functions",
+      "1. Five working modes",
+      "The M27 has 6 independent working modes: Android mode, Pure Music mode,",
+      "Bluetooth Receiving mode, USB DAC mode,COAX mode and AirPlay mode. It is"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page18_img1.jpeg",
+    "page": 18,
+    "rect": {
+      "x0": 80.0,
+      "y0": 387.7,
+      "x1": 494.0,
+      "y1": 732.7
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Windows File Explorer showing M27 internal storage directory structure (Alarms, Android, Audiobooks, DCIM, Documents, Download, fiio_log, Movies, Music, Notifications, Pictures, Podcasts, Recordings, Ringtones) and APK files (FiiOControl 66.3 MB, FiiOMusic 79.2 MB). Section: How to install third-party apps.",
+    "nearby_headings": [
+      "13",
+      "4.If the factory restore mode shows and the firmware can not be detected, the",
+      "installation package is generally damaged. Press the power button to confirm and select",
+      "reboot to restart. Then download the installation package to update again.",
+      "4. How to install third-party apps?"
+    ],
+    "image_width": 690,
+    "image_height": 575,
+    "is_decorative": false
+  },
+  {
+    "filename": "page32_img1.jpeg",
+    "page": 32,
+    "rect": {
+      "x0": 80.0,
+      "y0": 214.8,
+      "x1": 200.5,
+      "y1": 455.8
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Settings main menu showing categories: Mode Choose, Wi-Fi, Bluetooth, More, Audio, Display, Global, Apps. Section: An introduction to system settings menu.",
+    "nearby_headings": [
+      "27",
+      "An introduction to system settings",
+      "menu",
+      "Here is the system settings menu of the M27.",
+      "WiFi"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page32_img2.jpeg",
+    "page": 32,
+    "rect": {
+      "x0": 201.5,
+      "y0": 214.8,
+      "x1": 322.0,
+      "y1": 455.8
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Settings menu continued, showing additional categories: Apps, System, About Device. Section: An introduction to system settings menu.",
+    "nearby_headings": [
+      "27",
+      "An introduction to system settings",
+      "menu",
+      "Here is the system settings menu of the M27.",
+      "WiFi"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page32_img3.jpeg",
+    "page": 32,
+    "rect": {
+      "x0": 323.0,
+      "y0": 214.8,
+      "x1": 443.5,
+      "y1": 455.8
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Wi-Fi settings screen showing available networks list and connection options. Section: An introduction to system settings menu / WiFi.",
+    "nearby_headings": [
+      "27",
+      "An introduction to system settings",
+      "menu",
+      "Here is the system settings menu of the M27.",
+      "WiFi"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page33_img1.jpeg",
+    "page": 33,
+    "rect": {
+      "x0": 80.0,
+      "y0": 200.9,
+      "x1": 200.5,
+      "y1": 441.8
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Wi-Fi settings detail screen showing connected network info and Wi-Fi on during sleep option. Section: System settings / WiFi (continued).",
+    "nearby_headings": [
+      "28",
+      "Note\uff1aWhen the \u201cWi-Fi on during sleep\u201d option is disabled (default), WiFi will",
+      "automatically turn off during system sleep and reconnect upon wakeup,",
+      "significantly reducing power consumption. Enabling this option maintains a WiFi",
+      "connection during sleep with moderately higher power usage."
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page33_img2.jpeg",
+    "page": 33,
+    "rect": {
+      "x0": 201.5,
+      "y0": 200.9,
+      "x1": 322.0,
+      "y1": 441.8
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Wi-Fi advanced settings showing 'Wi-Fi on during sleep' toggle option. Section: System settings / WiFi sleep option.",
+    "nearby_headings": [
+      "28",
+      "Note\uff1aWhen the \u201cWi-Fi on during sleep\u201d option is disabled (default), WiFi will",
+      "automatically turn off during system sleep and reconnect upon wakeup,",
+      "significantly reducing power consumption. Enabling this option maintains a WiFi",
+      "connection during sleep with moderately higher power usage."
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page33_img3.jpeg",
+    "page": 33,
+    "rect": {
+      "x0": 323.0,
+      "y0": 200.9,
+      "x1": 443.5,
+      "y1": 441.8
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Wi-Fi hotspot/tethering or additional Wi-Fi configuration screen. Section: System settings / WiFi configuration.",
+    "nearby_headings": [
+      "28",
+      "Note\uff1aWhen the \u201cWi-Fi on during sleep\u201d option is disabled (default), WiFi will",
+      "automatically turn off during system sleep and reconnect upon wakeup,",
+      "significantly reducing power consumption. Enabling this option maintains a WiFi",
+      "connection during sleep with moderately higher power usage."
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page34_img1.jpeg",
+    "page": 34,
+    "rect": {
+      "x0": 81.0,
+      "y0": 314.5,
+      "x1": 201.5,
+      "y1": 555.5
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Bluetooth settings screen with Bluetooth toggle turned on, showing device pairing interface. Section: System settings / Bluetooth pairing (step 1).",
+    "nearby_headings": [
+      "29",
+      "1. Go to the Settings->Bluetooth menu to turn on the Bluetooth function.",
+      "2.Make the Bluetooth receiving device, such as Bluetooth earphones, enter the",
+      "pairing state. (Please refer to the user manual of the Bluetooth receiving device",
+      "about how to enter pairing state.)"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page34_img2.jpeg",
+    "page": 34,
+    "rect": {
+      "x0": 202.6,
+      "y0": 314.5,
+      "x1": 323.0,
+      "y1": 555.5
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Bluetooth pairing screen showing discovered devices and pairing in progress. Section: System settings / Bluetooth pairing (step 2).",
+    "nearby_headings": [
+      "29",
+      "1. Go to the Settings->Bluetooth menu to turn on the Bluetooth function.",
+      "2.Make the Bluetooth receiving device, such as Bluetooth earphones, enter the",
+      "pairing state. (Please refer to the user manual of the Bluetooth receiving device",
+      "about how to enter pairing state.)"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page36_img1.jpeg",
+    "page": 36,
+    "rect": {
+      "x0": 80.0,
+      "y0": 76.1,
+      "x1": 200.5,
+      "y1": 317.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Audio settings screen showing optical/coaxial output toggle and audio configuration options. Section: System settings / Audio / Optical/Coaxial output.",
+    "nearby_headings": [
+      "31",
+      "Audio",
+      "1.Optical/Coaxial output: When using the optical or coaxial output port, please enable"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page36_img2.jpeg",
+    "page": 36,
+    "rect": {
+      "x0": 80.0,
+      "y0": 416.0,
+      "x1": 200.5,
+      "y1": 657.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Audio settings showing channel balance and additional audio output settings. Section: System settings / Audio (channel balance and other settings).",
+    "nearby_headings": [
+      "31",
+      "Audio",
+      "1.Optical/Coaxial output: When using the optical or coaxial output port, please enable"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page36_img3.jpeg",
+    "page": 36,
+    "rect": {
+      "x0": 201.5,
+      "y0": 416.0,
+      "x1": 322.0,
+      "y1": 657.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Audio settings showing gain settings (Low/High/Ultra High) or volume limit configuration. Section: System settings / Audio (gain/volume settings).",
+    "nearby_headings": [
+      "31",
+      "Audio",
+      "1.Optical/Coaxial output: When using the optical or coaxial output port, please enable"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page36_img4.jpeg",
+    "page": 36,
+    "rect": {
+      "x0": 323.0,
+      "y0": 416.0,
+      "x1": 443.5,
+      "y1": 657.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Audio settings showing all-to-DSD or audio format conversion options. Section: System settings / Audio (DSD/format settings).",
+    "nearby_headings": [
+      "31",
+      "Audio",
+      "1.Optical/Coaxial output: When using the optical or coaxial output port, please enable"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page43_img1.jpeg",
+    "page": 43,
+    "rect": {
+      "x0": 80.0,
+      "y0": 152.4,
+      "x1": 200.5,
+      "y1": 393.4
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Display settings screen showing sample rate display toggle and dark theme option. Section: System settings / Display.",
+    "nearby_headings": [
+      "38",
+      "Display",
+      "1.Sample rate display",
+      "With it turned on, the sample rate of the currently playing song will be displayed.",
+      "2.Dark theme"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page43_img2.jpeg",
+    "page": 43,
+    "rect": {
+      "x0": 201.5,
+      "y0": 152.4,
+      "x1": 322.0,
+      "y1": 393.4
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Display settings showing dark theme enabled or theme selection screen. Section: System settings / Display / Dark theme.",
+    "nearby_headings": [
+      "38",
+      "Display",
+      "1.Sample rate display",
+      "With it turned on, the sample rate of the currently playing song will be displayed.",
+      "2.Dark theme"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page46_img1.jpeg",
+    "page": 46,
+    "rect": {
+      "x0": 86.0,
+      "y0": 76.1,
+      "x1": 206.5,
+      "y1": 317.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Global settings showing system navigation options (gesture, 2-button, 3-button) and tape mode theme selection. Section: System settings / Global / System navigation and Tape mode theme.",
+    "nearby_headings": [
+      "41",
+      "1.System navigation",
+      "Gesture, 2-button and 3-button navigation are available.",
+      "2.Tape mode theme",
+      "Select the theme after entering Tape mode."
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page47_img1.jpeg",
+    "page": 47,
+    "rect": {
+      "x0": 80.0,
+      "y0": 76.1,
+      "x1": 200.5,
+      "y1": 317.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Tape mode theme: Spectrum theme example (1 of 3 spectrum themes). Section: System settings / Global / Tape mode theme - Spectrum themes.",
+    "nearby_headings": [
+      "42",
+      "Spectrum theme: 3 themes",
+      "VU meter theme: 8 themes"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page47_img2.jpeg",
+    "page": 47,
+    "rect": {
+      "x0": 201.5,
+      "y0": 76.1,
+      "x1": 322.0,
+      "y1": 317.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Tape mode theme: Spectrum theme example (2 of 3 spectrum themes). Section: System settings / Global / Tape mode theme - Spectrum themes.",
+    "nearby_headings": [
+      "42",
+      "Spectrum theme: 3 themes",
+      "VU meter theme: 8 themes"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page47_img3.jpeg",
+    "page": 47,
+    "rect": {
+      "x0": 323.0,
+      "y0": 76.1,
+      "x1": 443.5,
+      "y1": 317.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Tape mode theme: Spectrum theme example (3 of 3 spectrum themes). Section: System settings / Global / Tape mode theme - Spectrum themes.",
+    "nearby_headings": [
+      "42",
+      "Spectrum theme: 3 themes",
+      "VU meter theme: 8 themes"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page47_img4.jpeg",
+    "page": 47,
+    "rect": {
+      "x0": 80.0,
+      "y0": 368.9,
+      "x1": 200.5,
+      "y1": 609.8
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Tape mode theme: VU meter theme example (1 of 8 VU meter themes). Section: System settings / Global / Tape mode theme - VU meter themes.",
+    "nearby_headings": [
+      "42",
+      "Spectrum theme: 3 themes",
+      "VU meter theme: 8 themes"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page48_img1.jpeg",
+    "page": 48,
+    "rect": {
+      "x0": 85.6,
+      "y0": 76.1,
+      "x1": 206.0,
+      "y1": 317.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Tape mode activation: theme selection page with 'Start Now' button at bottom. Section: System settings / Global / M27 tape mode feature - activation method 1.",
+    "nearby_headings": [
+      "43",
+      "M27\u2019s tape mode feature",
+      "In Settings - Global - Tape Mode Theme, you can choose from multiple tape-style",
+      "themes. Once selected, there are several ways to activate Tape Mode:",
+      "1.On the selected theme page, scroll to the bottom and tap Start Now."
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page48_img2.jpeg",
+    "page": 48,
+    "rect": {
+      "x0": 207.0,
+      "y0": 76.1,
+      "x1": 327.5,
+      "y1": 317.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Tape mode activation: entering tape mode from the now-playing page or quick settings. Section: System settings / Global / M27 tape mode feature - activation method 2.",
+    "nearby_headings": [
+      "43",
+      "M27\u2019s tape mode feature",
+      "In Settings - Global - Tape Mode Theme, you can choose from multiple tape-style",
+      "themes. Once selected, there are several ways to activate Tape Mode:",
+      "1.On the selected theme page, scroll to the bottom and tap Start Now."
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page48_img3.jpeg",
+    "page": 48,
+    "rect": {
+      "x0": 328.6,
+      "y0": 76.1,
+      "x1": 449.0,
+      "y1": 317.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of Tape mode active display showing the cassette tape animation during playback. Section: System settings / Global / M27 tape mode feature - tape mode in action.",
+    "nearby_headings": [
+      "43",
+      "M27\u2019s tape mode feature",
+      "In Settings - Global - Tape Mode Theme, you can choose from multiple tape-style",
+      "themes. Once selected, there are several ways to activate Tape Mode:",
+      "1.On the selected theme page, scroll to the bottom and tap Start Now."
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page51_img1.jpeg",
+    "page": 51,
+    "rect": {
+      "x0": 80.0,
+      "y0": 121.2,
+      "x1": 200.5,
+      "y1": 362.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of System settings showing Languages & input selection screen with language list. Section: System settings / System / Languages & input.",
+    "nearby_headings": [
+      "46",
+      "System",
+      "Languages & input",
+      "The first time the device starts up, you can choose an appropriate language from",
+      "the prompt."
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page53_img1.jpeg",
+    "page": 53,
+    "rect": {
+      "x0": 86.0,
+      "y0": 107.4,
+      "x1": 221.5,
+      "y1": 348.4
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music app homepage showing navigation tabs (All Songs, Artist, Album, Genre, Folder) with tutorial overlay and 'SCAN FOR MUSIC' button. Section: FiiO Music app / Homepage.",
+    "nearby_headings": [
+      "48",
+      "FiiO Music will enter the homepage once it starts up as shown below.",
+      "Quickly locate all songs",
+      "Slide the screen with your finger on the letter bar at the right side. A quick search",
+      "icon will show up in the middle of the screen. Sliding to corresponding initials"
+    ],
+    "image_width": 414,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page53_img2.jpeg",
+    "page": 53,
+    "rect": {
+      "x0": 221.6,
+      "y0": 107.4,
+      "x1": 357.1,
+      "y1": 348.4
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music app song list with letter bar quick search on the right side for quickly locating songs. Section: FiiO Music app / Quickly locate all songs.",
+    "nearby_headings": [
+      "48",
+      "FiiO Music will enter the homepage once it starts up as shown below.",
+      "Quickly locate all songs",
+      "Slide the screen with your finger on the letter bar at the right side. A quick search",
+      "icon will show up in the middle of the screen. Sliding to corresponding initials"
+    ],
+    "image_width": 414,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page53_img3.jpeg",
+    "page": 53,
+    "rect": {
+      "x0": 357.2,
+      "y0": 107.4,
+      "x1": 492.7,
+      "y1": 348.4
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music app showing quick search letter overlay in the middle of the screen while sliding along the letter bar. Section: FiiO Music app / Quickly locate all songs.",
+    "nearby_headings": [
+      "48",
+      "FiiO Music will enter the homepage once it starts up as shown below.",
+      "Quickly locate all songs",
+      "Slide the screen with your finger on the letter bar at the right side. A quick search",
+      "icon will show up in the middle of the screen. Sliding to corresponding initials"
+    ],
+    "image_width": 750,
+    "image_height": 1334,
+    "is_decorative": false
+  },
+  {
+    "filename": "page54_img1.jpeg",
+    "page": 54,
+    "rect": {
+      "x0": 80.0,
+      "y0": 76.2,
+      "x1": 215.5,
+      "y1": 317.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music app hidden menu accessed by tapping the three-dot icon next to a track, showing options for track operations. Section: FiiO Music app / Hidden menu.",
+    "nearby_headings": [
+      "49",
+      "Hidden menu",
+      "Tap the \u2507icon at the right corner of each track to wake up the hidden menu.",
+      "Then tap the icon in the menu to perform corresponding operations.",
+      "Sort songs"
+    ],
+    "image_width": 515,
+    "image_height": 916,
+    "is_decorative": false
+  },
+  {
+    "filename": "page54_img2.jpeg",
+    "page": 54,
+    "rect": {
+      "x0": 92.0,
+      "y0": 453.8,
+      "x1": 227.5,
+      "y1": 694.8
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music app sort options menu showing sorting methods: Sort by date added, Sort by filename, Sort by first letter, Sort by year. Section: FiiO Music app / Sort songs.",
+    "nearby_headings": [
+      "49",
+      "Hidden menu",
+      "Tap the \u2507icon at the right corner of each track to wake up the hidden menu.",
+      "Then tap the icon in the menu to perform corresponding operations.",
+      "Sort songs"
+    ],
+    "image_width": 414,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page54_img3.jpeg",
+    "page": 54,
+    "rect": {
+      "x0": 227.6,
+      "y0": 453.8,
+      "x1": 363.1,
+      "y1": 694.8
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music app showing sort method applied with songs reordered in the list. Section: FiiO Music app / Sort songs (result).",
+    "nearby_headings": [
+      "49",
+      "Hidden menu",
+      "Tap the \u2507icon at the right corner of each track to wake up the hidden menu.",
+      "Then tap the icon in the menu to perform corresponding operations.",
+      "Sort songs"
+    ],
+    "image_width": 414,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page55_img1.jpeg",
+    "page": 55,
+    "rect": {
+      "x0": 80.0,
+      "y0": 187.0,
+      "x1": 215.5,
+      "y1": 427.9
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music app bulk management mode with checkboxes for selecting multiple songs. Section: FiiO Music app / Bulk management.",
+    "nearby_headings": [
+      "50",
+      "Tapping the hidden menu on the upper right corner of the screen, you can",
+      "decide the way of songs sorted as Sort by date added, Sort by filename, Sort by",
+      "the first letter and Sort by year.",
+      "Bulk management"
+    ],
+    "image_width": 414,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page56_img1.jpeg",
+    "page": 56,
+    "rect": {
+      "x0": 86.0,
+      "y0": 76.2,
+      "x1": 221.8,
+      "y1": 317.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music now playing page showing album cover art, track info, playback controls, and progress bar. Section: FiiO Music app / Playing page.",
+    "nearby_headings": [
+      "51",
+      "Playing page",
+      "Tap the album cover in the bottom left corner to enter now playing page.",
+      "Switch page"
+    ],
+    "image_width": 516,
+    "image_height": 916,
+    "is_decorative": false
+  },
+  {
+    "filename": "page56_img2.jpeg",
+    "page": 56,
+    "rect": {
+      "x0": 222.8,
+      "y0": 76.2,
+      "x1": 358.3,
+      "y1": 317.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music now playing page showing lyrics display view after tapping the album cover to switch. Section: FiiO Music app / Playing page / Switch page (lyrics view).",
+    "nearby_headings": [
+      "51",
+      "Playing page",
+      "Tap the album cover in the bottom left corner to enter now playing page.",
+      "Switch page"
+    ],
+    "image_width": 414,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page56_img3.jpeg",
+    "page": 56,
+    "rect": {
+      "x0": 86.0,
+      "y0": 452.8,
+      "x1": 221.5,
+      "y1": 693.7
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music now playing page showing alternative display view (e.g., spectrum or additional track details). Section: FiiO Music app / Playing page / Switch page (alternate view).",
+    "nearby_headings": [
+      "51",
+      "Playing page",
+      "Tap the album cover in the bottom left corner to enter now playing page.",
+      "Switch page"
+    ],
+    "image_width": 414,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page57_img1.jpeg",
+    "page": 57,
+    "rect": {
+      "x0": 80.0,
+      "y0": 346.2,
+      "x1": 214.3,
+      "y1": 587.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music now playing page with progress bar for adjusting playback position by sliding left/right. Section: FiiO Music app / Playing page / Playing progress.",
+    "nearby_headings": [
+      "52",
+      "By tapping the middle of the album cover, it will switch pages between album",
+      "cover and lyrics circularly. Swipe left and right to switch songs.",
+      "Playing progress",
+      "Slide left and right on the progress bar below the album cover to quickly adjust"
+    ],
+    "image_width": 410,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page57_img2.jpeg",
+    "page": 57,
+    "rect": {
+      "x0": 220.4,
+      "y0": 346.2,
+      "x1": 354.7,
+      "y1": 587.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music now playing page showing VU meter or additional playback visualization. Section: FiiO Music app / Playing page / Playing progress (alternate display).",
+    "nearby_headings": [
+      "52",
+      "By tapping the middle of the album cover, it will switch pages between album",
+      "cover and lyrics circularly. Swipe left and right to switch songs.",
+      "Playing progress",
+      "Slide left and right on the progress bar below the album cover to quickly adjust"
+    ],
+    "image_width": 410,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page58_img1.jpeg",
+    "page": 58,
+    "rect": {
+      "x0": 80.0,
+      "y0": 76.2,
+      "x1": 215.5,
+      "y1": 317.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music EQ (equalizer) page showing preset EQ selection with frequency band curve visualization. Section: FiiO Music app / Playing page / EQ (preset EQ).",
+    "nearby_headings": [
+      "53",
+      "Choose preset EQ: swipe left or right on the bottom of the screen to switch",
+      "equalizer.",
+      "Customized EQ: drag the corresponding frequency band up and down to",
+      "slightly adjust the EQ curve (on the bands page, switch left and right to change"
+    ],
+    "image_width": 414,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page58_img2.jpeg",
+    "page": 58,
+    "rect": {
+      "x0": 221.6,
+      "y0": 76.2,
+      "x1": 357.1,
+      "y1": 317.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music EQ page showing customized EQ with draggable frequency bands for fine-tuning the EQ curve. Section: FiiO Music app / Playing page / EQ (customized EQ).",
+    "nearby_headings": [
+      "53",
+      "Choose preset EQ: swipe left or right on the bottom of the screen to switch",
+      "equalizer.",
+      "Customized EQ: drag the corresponding frequency band up and down to",
+      "slightly adjust the EQ curve (on the bands page, switch left and right to change"
+    ],
+    "image_width": 414,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page59_img1.jpeg",
+    "page": 59,
+    "rect": {
+      "x0": 80.0,
+      "y0": 138.6,
+      "x1": 214.3,
+      "y1": 379.6
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music VU meter display page, activated by tapping the song cover on the now playing page. Section: FiiO Music app / Playing page / VU meter display.",
+    "nearby_headings": [
+      "54",
+      "How to enable it: tap the song cover on the now playing page to enter the UV",
+      "meter displaying page.",
+      "Frequency spectrum playing page",
+      "There is a newly added frequency spectrum mode in the now playing page, which"
+    ],
+    "image_width": 410,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page60_img1.jpeg",
+    "page": 60,
+    "rect": {
+      "x0": 80.0,
+      "y0": 76.2,
+      "x1": 214.3,
+      "y1": 317.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music playing page showing square album cover display layout. Section: FiiO Music app / Playing page / Square cover layout.",
+    "nearby_headings": [
+      "55",
+      "Square cover and large cover:",
+      "FiiO Music app keeps upgrading and maintaining."
+    ],
+    "image_width": 410,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page60_img2.jpeg",
+    "page": 60,
+    "rect": {
+      "x0": 220.4,
+      "y0": 76.2,
+      "x1": 354.7,
+      "y1": 317.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music playing page showing large album cover display layout. Section: FiiO Music app / Playing page / Large cover layout.",
+    "nearby_headings": [
+      "55",
+      "Square cover and large cover:",
+      "FiiO Music app keeps upgrading and maintaining."
+    ],
+    "image_width": 410,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page60_img3.jpeg",
+    "page": 60,
+    "rect": {
+      "x0": 80.0,
+      "y0": 357.0,
+      "x1": 214.3,
+      "y1": 598.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music playing page showing an alternative cover display style or additional view mode. Section: FiiO Music app / Playing page / Cover display variations.",
+    "nearby_headings": [
+      "55",
+      "Square cover and large cover:",
+      "FiiO Music app keeps upgrading and maintaining."
+    ],
+    "image_width": 410,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page60_img4.jpeg",
+    "page": 60,
+    "rect": {
+      "x0": 220.4,
+      "y0": 357.0,
+      "x1": 354.7,
+      "y1": 598.0
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of FiiO Music playing page showing another cover display variation. Section: FiiO Music app / Playing page / Cover display variations.",
+    "nearby_headings": [
+      "55",
+      "Square cover and large cover:",
+      "FiiO Music app keeps upgrading and maintaining."
+    ],
+    "image_width": 410,
+    "image_height": 736,
+    "is_decorative": false
+  },
+  {
+    "filename": "page65_img1.jpeg",
+    "page": 65,
+    "rect": {
+      "x0": 80.0,
+      "y0": 291.4,
+      "x1": 200.5,
+      "y1": 532.3
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of About Device / firmware update screen showing online upgrade option with current version info. Section: Firmware upgrade, factory data reset and technical support / How to upgrade firmware.",
+    "nearby_headings": [
+      "60",
+      "Firmware upgrade, factory data reset and",
+      "technical support",
+      "1.How to upgrade firmware?",
+      "The M27 supports online upgrade and local upgrade."
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  },
+  {
+    "filename": "page65_img2.jpeg",
+    "page": 65,
+    "rect": {
+      "x0": 201.2,
+      "y0": 291.4,
+      "x1": 321.7,
+      "y1": 532.3
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of firmware update confirmation dialog or update progress screen. Section: Firmware upgrade, factory data reset and technical support / How to upgrade firmware.",
+    "nearby_headings": [
+      "60",
+      "Firmware upgrade, factory data reset and",
+      "technical support",
+      "1.How to upgrade firmware?",
+      "The M27 supports online upgrade and local upgrade."
+    ],
+    "image_width": 345,
+    "image_height": 689,
+    "is_decorative": false
+  },
+  {
+    "filename": "page68_img1.jpeg",
+    "page": 68,
+    "rect": {
+      "x0": 80.0,
+      "y0": 76.2,
+      "x1": 200.5,
+      "y1": 317.2
+    },
+    "placement_confidence": "high",
+    "context_hint": "Screenshot of About Device screen showing device information such as model name, firmware version, and system details. Section: Firmware upgrade / About Device information.",
+    "nearby_headings": [
+      "63"
+    ],
+    "image_width": 1004,
+    "image_height": 2008,
+    "is_decorative": false
+  }
+]

@@ -37,7 +37,7 @@ python3 translate_images.py b
 python3 translate_images.py page6_img1.jpeg
 ```
 
-- API キーは `translate_images.py` の `API_KEY` 変数にハードコードされている（line 19）
+- API キーは環境変数 `GEMINI_API_KEY` から読み込む（`os.environ.get("GEMINI_API_KEY", "")`）
 - 入出力先は `output/m27-manual-ja-v3/images/` に固定
 - レート制限時は自動リトライ（最大3回、30秒インターバル）
 - プライマリモデルが失敗した場合、`gemini-2.5-flash-image` にフォールバック
