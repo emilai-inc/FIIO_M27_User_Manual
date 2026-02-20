@@ -12,6 +12,7 @@ FiiO M27 Complete User Manual の日本語HTMLマニュアルです。
 | v2 (m27-manual-ja-v2) | レイアウト改善：画像サイズ適正化、Noto Sans JP、セクション番号、TOC改善 | [v2を表示](https://kenzokono.github.io/FIIO_M27_User_Manual/output/m27-manual-ja-v2/) |
 | v3 (m27-manual-ja-v3) | 画像日本語化：Nano Banana ProでUIスクショ37枚の英語テキストを日本語に翻訳 | [v3を表示](https://kenzokono.github.io/FIIO_M27_User_Manual/output/m27-manual-ja-v3/) |
 | v4 (m27-manual-ja-v4) | デュアルQAレビュー改善：Claude + Geminiによる翻訳精度向上・コード品質改善 | [v4を表示](https://kenzokono.github.io/FIIO_M27_User_Manual/output/m27-manual-ja-v4/) |
+| v5 (m27-manual-ja-v5) | PDF原文全ページ対照：Audio/Display/Global設定完全版+FAQ15項目追加+細部修正16箇所 | [v5を表示](https://kenzokono.github.io/FIIO_M27_User_Manual/output/m27-manual-ja-v5/) |
 
 ## ファイル構成
 
@@ -34,6 +35,12 @@ output/
 │   ├── style.css            # 改善済みCSS
 │   ├── images/              # v3と同一（日本語化済み画像）
 │   ├── qa-report.md         # v4用デュアルQAレポート
+│   └── ...
+├── m27-manual-ja-v5/        # v5: PDF全ページ対照・完全版
+│   ├── index.html           # 全セクション拡充済みHTML（1881行）
+│   ├── style.css            # v4と同一CSS
+│   ├── images/              # v3と同一（日本語化済み画像）
+│   ├── qa-report.md         # v5用PDF対照QAレポート
 │   └── ...
 └── translate_images.py      # Gemini API画像翻訳スクリプト
 ```
@@ -64,6 +71,16 @@ output/
 - 自然な日本語：Wi-Fiスリープ設定の助詞改善、読点追加
 - HTML構造：TOCに `#usb-digital-output` リンク追加、余分な空行削除
 - CSSバージョンコメント更新
+
+### v4 → v5 の変更点
+- **PDF原文68ページとの全セクション逐一対照**（Gemini 2.5 Flash で5チャンク検証）
+- Audio設定: 6項目→17項目（Bluetoothコーデック、LDAC/LHDC品質、音量調整、3.5mm/4.4mm出力モード切替、SPDIF OUT、PEQ、第2次高調波、自動一時停止等）
+- Display設定: 4項目→10項目（明るさ、LEDライト制御、ナイトライト、表示サイズ、ロック画面、自動回転）
+- Global設定: 2項目→7項目（マルチファンクションボタン、電源オフタイマー、HOLDスイッチ、音量設定、ダブルタップ復帰）
+- FAQ: 7項目→22項目（USB DACスマホ接続、AirPlay、Roon Ready、FiiO Cast、DK1 PLUS、スーパーハイゲイン等15項目追加）
+- ゲイン設定修正: 3段階→5段階（PDF準拠）
+- 出力端子仕様修正: 同時出力不可→同時出力可能（PDF準拠）
+- 各セクション細部: 外観ガイド6箇所、FiiO Link手順、ファームウェア注記等16箇所修正
 
 ## 内容
 
