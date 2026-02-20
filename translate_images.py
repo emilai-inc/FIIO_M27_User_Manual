@@ -16,7 +16,7 @@ from google.genai import types
 from PIL import Image
 
 # API Configuration
-API_KEY = "GEMINI_API_KEY_REMOVED"
+API_KEY = os.environ.get("GEMINI_API_KEY", "")
 PRIMARY_MODEL = "gemini-3-pro-image-preview"
 FALLBACK_MODEL = "gemini-2.5-flash-image"
 
