@@ -14,6 +14,7 @@ FiiO M27 Complete User Manual の日本語HTMLマニュアルです。
 | v4 (m27-manual-ja-v4) | デュアルQAレビュー改善：Claude + Geminiによる翻訳精度向上・コード品質改善 | [v4を表示](https://kenzokono.github.io/FIIO_M27_User_Manual/output/m27-manual-ja-v4/) |
 | v5 (m27-manual-ja-v5) | PDF原文全ページ対照：Audio/Display/Global設定完全版+FAQ15項目追加+細部修正16箇所 | [v5を表示](https://kenzokono.github.io/FIIO_M27_User_Manual/output/m27-manual-ja-v5/) |
 | v6 (m27-manual-ja-v6) | Gemini 3.1 Pro再検証：誤訳修正・訳抜け補完・アクセシビリティ改善（95点/100点） | [v6を表示](https://kenzokono.github.io/FIIO_M27_User_Manual/output/m27-manual-ja-v6/) |
+| v7 (m27-manual-ja-v7) | 全18セクション×1対1全文対比チェック：真の訳抜け3件修正・誤訳0件確認（最終版） | [v7を表示](https://kenzokono.github.io/FIIO_M27_User_Manual/output/m27-manual-ja-v7/) |
 
 ## ファイル構成
 
@@ -48,6 +49,12 @@ output/
 │   ├── style.css            # v6 CSS
 │   ├── images/              # v3と同一（日本語化済み画像）
 │   ├── qa-report.md         # v6用Gemini 3.1 ProQAレポート
+│   └── ...
+├── m27-manual-ja-v7/        # v7: 全文対比検証済み最終版
+│   ├── index.html           # 全文対比済みHTML
+│   ├── style.css            # v7 CSS
+│   ├── images/              # v3と同一（日本語化済み画像）
+│   ├── qa-report.md         # v7用全文対比QAレポート
 │   └── ...
 └── translate_images.py      # Gemini API画像翻訳スクリプト
 ```
@@ -97,6 +104,13 @@ output/
 - アクセシビリティ: CSPメタタグ追加、nav aria-label追加
 - スペック値注記: PDF内の値の不一致について注意書き追加
 
+### v6 → v7 の変更点
+- **全18セクション × 1対1 PDF原文対照**（Gemini 3.1 Pro で各セクション個別検証）
+- 誤検知フィルタリング: PDF（FAQ形式）とHTML（マニュアル形式）の構造差異を考慮し、真の問題のみ抽出
+- 真の訳抜け3件修正: 電源オフ時の再起動選択肢、microSD読み書き速度、初回起動時の言語選択
+- 真の誤訳: **0件確認**（翻訳は正確）
+- ゲインモード別出力値（Super High: 2250mW、Ultra High: 5000mW）を仕様注記に追記
+
 ## 内容
 
 - 外観ガイド（ボタン・端子の説明）
@@ -122,3 +136,4 @@ output/
 - **QA (v4)**: デュアルQA — Claude Opus 4.6 + Gemini 2.5 Flash
 - **QA (v5)**: PDF原文対照 — Gemini 2.5 Flash（5チャンク逐一検証）
 - **QA (v6)**: 全面再検証 — Gemini 3.1 Pro Preview（3チャンク対照 + 品質レビュー）
+- **QA (v7)**: 全文対比 — Gemini 3.1 Pro Preview（18セクション×1対1対照 + 誤検知フィルタリング）
