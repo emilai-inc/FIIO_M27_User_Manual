@@ -58,7 +58,7 @@ output/
 - 768pxブレークポイント追加
 
 ### v2 → v3 の変更点
-- Nano Banana Pro（Gemini 3 Pro Image）APIでUIスクリーンショット37枚の英語テキストを日本語化
+- Gemini 3 Pro Image Preview（Nano Banana Pro）APIでUIスクリーンショット37枚の英語テキストを日本語化
 - システム設定画面（Settings, Audio, Display, Bluetooth等）19枚
 - FiiO Musicアプリ画面（ホーム、再生、EQ等）15枚
 - ファームウェア・デバイス情報画面 3枚
@@ -102,6 +102,7 @@ output/
 ## 技術スタック
 
 - **翻訳**: Claude Code (Agent Teams)
-- **画像日本語化**: Google Gemini Nano Banana Pro (gemini-3-pro-image-preview)
+- **画像日本語化**: Gemini 3 Pro Image Preview / Nano Banana Pro (gemini-3-pro-image-preview)、フォールバック: Nano Banana (gemini-2.5-flash-image)
 - **画像抽出**: PyMuPDF (pymupdf)
-- **QA**: 自動化検証スクリプト + デュアルQA（Claude + Gemini 2.5 Flash）
+- **QA (v4)**: デュアルQA — Claude Opus 4.6 + Gemini 2.5 Flash
+- **QA (v5)**: PDF原文対照 — Gemini 2.5 Flash（5チャンク逐一検証）
