@@ -1,0 +1,665 @@
+/* ============================================================
+   FiiO M27 Japanese Manual - v6 Gemini 3.1 Pro Reviewed
+   Responsive, print-ready, accessible
+   ============================================================ */
+
+/* Reset & Base */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Noto Sans JP", "Hiragino Sans", system-ui, -apple-system, sans-serif;
+    line-height: 1.8;
+    color: #1e1e1e;
+    background: #fafafa;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    letter-spacing: 0.02em;
+}
+
+/* Selection */
+::selection {
+    background: #dbeafe;
+    color: #1e1e1e;
+}
+
+/* Links */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+/* Scroll target offset */
+:target {
+    scroll-margin-top: 1rem;
+}
+
+/* ============================================================
+   Header
+   ============================================================ */
+header {
+    text-align: center;
+    padding: 3rem 0 2rem;
+    margin-bottom: 2.5rem;
+}
+
+header h1 {
+    font-family: "Inter", "Noto Sans JP", "Hiragino Sans", system-ui, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.5rem;
+    color: #111;
+    line-height: 1.4;
+}
+
+header .subtitle {
+    font-size: 0.9rem;
+    color: #888;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* ============================================================
+   Table of Contents
+   ============================================================ */
+nav#toc {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1.75rem 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+nav#toc h2 {
+    font-family: "Inter", "Noto Sans JP", "Hiragino Sans", system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #2563eb;
+    border-left: none;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+nav#toc ol {
+    padding-left: 1.5rem;
+    columns: 2;
+    column-gap: 2rem;
+}
+
+nav#toc li {
+    margin-bottom: 0.35rem;
+    font-size: 0.88rem;
+    break-inside: avoid;
+    line-height: 1.6;
+}
+
+nav#toc > ol > li {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+nav#toc ol ol {
+    columns: 1;
+    padding-left: 1rem;
+    margin-top: 0.25rem;
+}
+
+nav#toc ol ol li {
+    font-weight: 400;
+    font-size: 0.82rem;
+    color: #555;
+}
+
+nav#toc a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+nav#toc a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+/* ============================================================
+   Main Content & Sections
+   ============================================================ */
+main {
+    counter-reset: section;
+    padding-bottom: 3rem;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+/* Cover section: special treatment */
+#cover {
+    text-align: center;
+    padding: 2rem 0 3rem;
+}
+
+#cover p {
+    font-size: 0.85rem;
+    color: #888;
+    font-style: italic;
+}
+
+/* Section counter */
+main > section:not(#cover) {
+    counter-increment: section;
+}
+
+main > section:not(#cover) > h2::before {
+    content: counter(section) ". ";
+    color: #2563eb;
+    font-weight: 700;
+}
+
+/* ============================================================
+   Headings
+   ============================================================ */
+h1, h2, h3, h4 {
+    font-family: "Inter", "Noto Sans JP", "Hiragino Sans", system-ui, sans-serif;
+    letter-spacing: 0.01em;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    padding-top: 0;
+    padding-bottom: 0.75rem;
+    padding-left: 0.75rem;
+    border-bottom: none;
+    border-left: 4px solid #2563eb;
+    color: #111;
+}
+
+h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: #222;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+/* ============================================================
+   Typography
+   ============================================================ */
+p {
+    margin-bottom: 1rem;
+    line-height: 1.85;
+}
+
+/* Lists */
+ol, ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.4rem;
+    line-height: 1.75;
+}
+
+li strong {
+    color: #111;
+    font-weight: 600;
+}
+
+/* ============================================================
+   Images & Figures
+   ============================================================ */
+figure {
+    margin: 1.5rem auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    transition: box-shadow 0.2s ease;
+}
+
+figure:hover img {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+figcaption {
+    font-size: 0.82rem;
+    color: #777;
+    margin-top: 0.6rem;
+    font-style: normal;
+    letter-spacing: 0.01em;
+}
+
+/* --- Image Category Classes --- */
+
+/* Cover: hero-style, centered, moderate size */
+.fig-cover {
+    max-width: 480px;
+    margin: 2rem auto;
+}
+
+.fig-cover img {
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    border: none;
+}
+
+/* Hardware diagram: larger, allow detail visibility */
+.fig-hardware {
+    max-width: 620px;
+    margin: 2rem auto;
+}
+
+/* Phone screenshots: constrained to realistic phone size */
+.fig-phone {
+    max-width: 360px;
+    margin: 1.5rem auto;
+}
+
+.fig-phone img {
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Desktop/PC screenshots: wider, landscape */
+.fig-desktop {
+    max-width: 600px;
+    margin: 1.5rem auto;
+}
+
+/* Image Grid (side-by-side screenshots) */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.image-grid-item {
+    flex: 0 1 220px;
+    max-width: 220px;
+}
+
+.image-grid-item img {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ============================================================
+   Tables
+   ============================================================ */
+.table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+}
+
+th, td {
+    border: none;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 0.65rem 1rem;
+    text-align: left;
+}
+
+th {
+    background: #f8f9fb;
+    font-weight: 600;
+    color: #333;
+    font-size: 0.82rem;
+    border-bottom: 2px solid #ddd;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background: #fafbfc;
+}
+
+tr:hover {
+    background: #f0f4ff;
+    transition: background 0.15s ease;
+}
+
+/* ============================================================
+   Warning / Caution / Notice Boxes
+   ============================================================ */
+.warning-danger,
+.warning-caution,
+.warning-notice {
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border-left: 4px solid;
+    font-size: 0.92rem;
+    line-height: 1.75;
+}
+
+.warning-danger {
+    background: #fef2f2;
+    border-left-color: #dc2626;
+}
+
+.warning-danger .warning-label {
+    color: #dc2626;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.warning-danger .warning-label::before {
+    content: "\26D4  ";
+}
+
+.warning-caution {
+    background: #fff7ed;
+    border-left-color: #ea580c;
+}
+
+.warning-caution .warning-label {
+    color: #ea580c;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.warning-caution .warning-label::before {
+    content: "\26A0\FE0F  ";
+}
+
+.warning-notice {
+    background: #f0f9ff;
+    border-left-color: #3b82f6;
+}
+
+.warning-notice .warning-label {
+    color: #2563eb;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.warning-notice .warning-label::before {
+    content: "\2139\FE0F  ";
+}
+
+/* ============================================================
+   Code
+   ============================================================ */
+code {
+    font-family: "SF Mono", "Menlo", "Consolas", monospace;
+    background: #f3f4f6;
+    padding: 0.15rem 0.35rem;
+    border-radius: 3px;
+    font-size: 0.85em;
+}
+
+pre {
+    background: #1f2937;
+    color: #f9fafb;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+}
+
+/* ============================================================
+   Back to Top Button
+   ============================================================ */
+#back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 44px;
+    height: 44px;
+    background: #2563eb;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.2s ease;
+    z-index: 1000;
+}
+
+#back-to-top:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+#back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ============================================================
+   Footer
+   ============================================================ */
+footer {
+    border-top: 1px solid #e0e0e0;
+    padding: 2rem 0;
+    font-size: 0.82rem;
+    color: #999;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+footer p {
+    margin-bottom: 0.3rem;
+    line-height: 1.6;
+}
+
+/* ============================================================
+   Responsive — Medium (Tablets)
+   ============================================================ */
+@media (max-width: 768px) {
+    body {
+        max-width: 100%;
+        padding: 0 1.25rem;
+    }
+
+    nav#toc ol {
+        columns: 1;
+    }
+
+    .fig-phone {
+        max-width: 320px;
+    }
+
+    .fig-hardware {
+        max-width: 500px;
+    }
+
+    .fig-cover {
+        max-width: 400px;
+    }
+}
+
+/* ============================================================
+   Responsive — Small (Phones)
+   ============================================================ */
+@media (max-width: 640px) {
+    body {
+        padding: 0 1rem;
+        font-size: 15px;
+    }
+
+    header {
+        padding: 2rem 0 1.5rem;
+    }
+
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    nav#toc {
+        padding: 1rem 1.25rem;
+        border-radius: 8px;
+    }
+
+    nav#toc ol {
+        columns: 1;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        padding-left: 0.6rem;
+    }
+
+    h3 {
+        font-size: 1.05rem;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+
+    th, td {
+        padding: 0.5rem 0.6rem;
+    }
+
+    /* On actual phones, let images fill more width */
+    .fig-phone {
+        max-width: 100%;
+    }
+
+    .fig-cover {
+        max-width: 100%;
+    }
+
+    .fig-hardware {
+        max-width: 100%;
+    }
+
+    .fig-desktop {
+        max-width: 100%;
+    }
+
+    .image-grid-item {
+        flex: 0 1 160px;
+    }
+
+    #back-to-top {
+        width: 40px;
+        height: 40px;
+        bottom: 1rem;
+        right: 1rem;
+        font-size: 1.1rem;
+    }
+}
+
+/* ============================================================
+   Print
+   ============================================================ */
+@media print {
+    nav#toc {
+        display: none;
+    }
+
+    #back-to-top {
+        display: none;
+    }
+
+    body {
+        max-width: none;
+        padding: 0;
+        font-size: 10.5pt;
+        background: #fff;
+        color: #000;
+    }
+
+    header {
+        border-bottom: 1pt solid #000;
+    }
+
+    h2 {
+        break-before: page;
+        border-left-color: #000;
+    }
+
+    figure {
+        break-inside: avoid;
+    }
+
+    .fig-phone {
+        max-width: 250px;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .warning-danger,
+    .warning-caution,
+    .warning-notice {
+        border: 1pt solid #000;
+        background: none;
+    }
+
+    tr:hover {
+        background: none;
+    }
+}
