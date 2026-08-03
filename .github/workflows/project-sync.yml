@@ -1,0 +1,36 @@
+name: Project board sync
+
+# org プロジェクトボード「SINGULARITY DECK ── 事象収束盤」への同期。
+# https://github.com/orgs/emilai-inc/projects/1
+#
+# 本体は handbook の再利用 workflow にあり、このファイルは呼び出すだけの薄い層。
+# ロジックを直す場合は handbook/.github/workflows/project-sync.yml と
+# handbook/ci/bin/project-sync.sh を編集する（各リポへの再配布は不要）。
+#
+# 【新規リポジトリに置くとき】このファイルをそのままコピーする。編集は要らない。
+# Category はリポジトリ名のプレフィックス（site- / tool- / docs- / infra-）から
+# 自動判定されるので、repo-naming.md の命名規則に従っていれば設定は不要。
+#
+# 【permissions を明示している理由】
+# org の default_workflow_permissions が read のため、書かないと GITHUB_TOKEN が
+# 読み取りのみになり、assignee の自動設定が静かに失敗する。再利用 workflow 側で
+# write を要求しても、呼び出し元の権限を超えることはできない。
+
+on:
+  issues:
+    types: [opened, reopened, closed]
+  pull_request:
+    types: [opened, reopened, closed]
+
+jobs:
+  sync:
+    uses: emilai-inc/handbook/.github/workflows/project-sync.yml@main
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+    # secrets: inherit ではなく明示渡しにする。inherit だと呼び出し側の評価段階で
+    # 「Secret ADD_TO_PROJECT_PAT is required, but not provided while calling」で落ちる
+    # （2026-08-04 に実測。org secret を別リポの reusable workflow へ inherit する経路で発生）。
+    secrets:
+      ADD_TO_PROJECT_PAT: ${{ secrets.ADD_TO_PROJECT_PAT }}
